@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Open+Sans&display=swap');
+
+/* set page max-width */
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 90px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+/* center certain elements*/
+#hero h1, #hero h4 {
+    text-align: center;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+#hero-msg h4, #hero-msg h1 {
+    color: white;
+}
+
+.button-box {
+    text-align: center;
+}
+
+.gridtitle {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    color: #4D4D4D;
+}
+
+.content {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 6%;
+    color: #4D4D4D;
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+#background {
+    height: 725px;
+}
+
+
+/* nav */
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: #26854E;
+    text-decoration: none;
+    padding: 35px;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    background-color: #26854E;
+    color: white;
+}
+
+/* set background and foreground colors */
+body {
+    background-color: white;
+    font-family: 'Open Sans', 'Tahoma', 'Arial';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFEDB2;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.gridtitle {
+    text-align: center;
+    font-family: 'Geologica', 'Tahoma', 'Arial';
+    color: #26854E;
+}
+
+.home-title {
+    font-family: 'Geologica', 'Tahoma', 'Arial';
+    font-size: 2.3em;
+}
+
+.firstpic {
+    grid-column: 4/5;
+}
+
+.secondpic {
+    grid-column: 5/7;
+}
+
+.thirdpic {
+    grid-column: 2/4;
+}
+
+.pic1, .pic2, .pic3 {
+    width: 100%;
+    height: 80%;
+}
+
+.pic1:hover, .pic2:hover, .pic3:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.pic1, .pic2, .pic3 {
+    border: 10px solid #FFEDB2;
+    transition: transform .5s;
+    /* box-shadow: 5px 5px 10px black; */
+}
+
+.book, .join {
+    background-color: #26854E;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.book:hover, .join:hover {
+    background-color: #4D4D4D;
+    color: white;
+}
+
+footer {
+    background-color: #FFEDB2;
+    color: #4D4D4D;
+    padding: 25px 50px;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #4D4D4D;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #26854E;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p:hover {
+    text-decoration: underline;
+    color: #26854E;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
